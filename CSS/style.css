@@ -9,7 +9,7 @@ body {
 
 .main {
     width: 100%;
-    background: linear-gradient(to top,rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(/images/shotbychloe.JPG) center center ;*/
+    background: url(/images/shotbychloe.JPG) center center ;
     background-position: center;
     background-size: center;
     height: 150vh; /* Adjusted height */
