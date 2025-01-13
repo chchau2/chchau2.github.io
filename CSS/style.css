@@ -145,7 +145,7 @@ ul li a:hover{
 
 @media screen and (max-width:768px){
     .main {
-        background-position: center top; /* Adjusts position for smaller screens */
+        background-position: center; /* Adjusts position for smaller screens */
         background-size: cover; /* Ensures the image still covers the area */
     }
     .navbar
