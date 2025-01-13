@@ -9,12 +9,11 @@ body {
 
 .main {
     width: 100%;
-    background: linear-gradient(to top,rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),url(/images/shotbychloe.JPG) center center;
-    background-position: center;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 50%),url(/images/shotbychloe.JPG) center center;
+    background-position: center 60%;
     background-size: center;
-    height: 150vh; /* Adjusted height */
+    height: 100vh; /* Adjusted height */
     padding: 50px 0; /* Added padding */
-    margin-bottom: 50px; /* Added margin to the bottom to create space between sections */
 }
 
 .navbar{
@@ -77,55 +76,9 @@ ul li a:hover{
     color: #136F63;
 }
 
-/*.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-
-.btn:hover{
-    background-color: #0a342f;
-}
-
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #136F63;
-    margin-top: 13px;
-    color:#fff;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #136F63;
-    border: 2px solid #136F63;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.btn:focus{
-    outline: none;
-}
-
-.srch:focus{
-    outline: none;
-}*/
-
 .content{
     width: 1200px;
-    height: auto;
+    height: 200px;
     margin: auto;
     color:#fff;
     position: relative;
@@ -185,7 +138,7 @@ ul li a:hover{
 .about {
     background: none;
     font-size: 1.5em;
-    margin-top: 450px;
+    margin-top: 250px;
     padding: 50px 20px;
     color: #fff;
 }
@@ -246,12 +199,18 @@ html {
   
   #portfolio {
     padding: 60px 20px;  /* Padding for spacing */
-    margin-top: 150px;
+    margin-top: 15px;
     background-color: #f0f0f0; /* Optional background color */
     text-align: center;
   }
   
   #portfolio h2 {
+    font-size: 2.5em;
+    color: #136F63; /* Customize the color */
+    margin-bottom: 20px;
+  }
+  #portfolio h3 {
+    margin-top: 30px;
     font-size: 2.5em;
     color: #136F63; /* Customize the color */
     margin-bottom: 20px;
@@ -262,11 +221,11 @@ html {
     margin-bottom: 40px;
   }
   
-  .portfolio-images {
+  .landscape-images {
     display: block;  /* Ensures the images are stacked vertically */
   }
   
-  .portfolio-image {
+  .landscape-image {
     width: 80%;  /* Make images smaller for better view */
     max-width: 800px;  /* Maximum width of images */
     height: auto;  /* Keep aspect ratio intact */
@@ -277,12 +236,36 @@ html {
     transition: transform 0.3s ease;  /* Optional hover effect */
   }
   
-  .portfolio-image:hover {
+  .landscape-image:hover {
     transform: scale(1.05); /* Slight zoom on hover */
   }
   
   
-  .portfolio-image:hover {
+  .concert-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+
+  .concert-images {
+    display: block;  /* Ensures the images are stacked vertically */
+  }
+  
+  .concert-image {
+    width: 80%;  /* Make images smaller for better view */
+    max-width: 800px;  /* Maximum width of images */
+    height: auto;  /* Keep aspect ratio intact */
+    margin: 20px auto;  /* Add margin for spacing between images */
+    display: block;  /* Ensure each image takes up a full line */
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: transform 0.3s ease;  /* Optional hover effect */
+  }
+  
+  .concert-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  
+  .concert-image:hover {
     transform: scale(1.05); /* Slight zoom on hover */
   }
 
@@ -304,6 +287,11 @@ html {
 }
 
 #contact h2 {
+    font-size: 2.5em;
+    color: #136F63; /* Title color */
+    margin-bottom: 20px;
+}
+#contact h3 {
     font-size: 2.5em;
     color: #136F63; /* Title color */
     margin-bottom: 20px;
