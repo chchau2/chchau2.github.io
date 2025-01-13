@@ -7,10 +7,11 @@ body {
     min-height: 100vh; /* Makes the page twice the height of the viewport */
   }
 
-.main {
+  .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 50%), url(/images/shotbychloe.JPG) no-repeat center center;
-    background-size: cover; /* Ensures the image covers the whole area */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 50%), 
+                url('/images/shotbychloe.JPG') no-repeat center center;
+    background-size: cover; /* Cover the entire area while maintaining aspect ratio */
     height: 100vh; /* Full viewport height */
     padding: 50px 0;
 }
@@ -143,10 +144,11 @@ ul li a:hover{
 }
 
 
-@media screen and (max-width:1500px){
-    .main {
-        background-position: center bottom; /* Adjusts position for smaller screens */
-        background-size: cover; /* Ensures the image still covers the area */
+    @media screen and (max-width: 768px) {
+        .main {
+            background-position: center center; /* Center the image */
+            background-size: cover; /* Ensure the image fills the space */
+        }
     }
     .navbar
     {
