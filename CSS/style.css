@@ -176,18 +176,18 @@ html {
 .carousel-container {
     display: flex; /* Enables flexbox layout */
     justify-content: space-around; /* Centers the carousels horizontally */
-    gap: 2%; /* Adds space between carousels */
+    gap: 0%; /* Adds space between carousels */
     flex-wrap: wrap; /* Allows carousels to wrap if screen is too small */
 }
 
 .carousel {
     position: relative;
-    width: 45%; /* Adjust this to make them fit within the row */
+    width: 30%; /* Adjust this to make them fit within the row */
     overflow: hidden; /* Prevent horizontal scroll */
 }
 
 .carousel-images {
-    
+    margin-bottom: 4%;
     align-items: center;
     display: flex; /* Align images horizontally */
 }
@@ -197,6 +197,7 @@ html {
 }
 
 .carousel-image {
+    
     flex: 0 0 100%; /* Ensure each image takes 100% width of the carousel */
     opacity: 0.5; /* Initial fade */
     transition: opacity 0.45s ease; /* Smooth transition for opacity */
