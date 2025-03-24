@@ -121,6 +121,7 @@
     
     function moveSlide(step, carouselId) {
         const carousel = document.querySelector(`#${carouselId}`);
+        const carouselImages = carousel.querySelector('.carousel-images');
         const slides = carousel.querySelectorAll('.carousel-image');
         const totalSlides = slides.length;
     
@@ -144,7 +145,6 @@
             slide.style.opacity = index === carouselStates[carouselId] ? "1" : "0.5";
         });
     
-        const carouselImages = carousel.querySelector('.carousel-images');
         carouselImages.style.transform = `translateX(-${carouselStates[carouselId] * 100}%)`;
     }
     

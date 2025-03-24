@@ -192,6 +192,8 @@ html {
 }
 
 .carousel-images {
+    /*take up whole width*/
+    min-width: 100%;
     margin-bottom: 4%;
     align-items: center;
     display: flex; /* Align images horizontally */
