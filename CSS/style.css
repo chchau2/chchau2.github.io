@@ -186,21 +186,20 @@ html {
     overflow: hidden; /* Prevent horizontal scroll */
 }
 
+
+.carousel-image:hover{
+    opacity: 0;
+}
+
 .carousel-images {
     margin-bottom: 4%;
     align-items: center;
     display: flex; /* Align images horizontally */
 }
 
-.carousel-image:hover {
-    opacity: 1;
-}
-
 .carousel-image {
-    
     flex: 0 0 100%; /* Ensure each image takes 100% width of the carousel */
-    opacity: 0.5; /* Initial fade */
-    transition: opacity 0.45s ease; /* Smooth transition for opacity */
+    /*transition: opacity 0.45s ease; /* Smooth transition for opacity */
 }
 
 
